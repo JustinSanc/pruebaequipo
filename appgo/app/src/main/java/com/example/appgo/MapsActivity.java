@@ -90,6 +90,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 checkLocationPermission();
             } else {
                 Toast.makeText(this, "Permiso de ubicación denegado", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Permiso de ubicación no prestado", Toast.LENGTH_SHORT).show();
             }
         }
     }
